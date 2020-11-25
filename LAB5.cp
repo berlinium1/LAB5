@@ -33,6 +33,7 @@ int main() {
         k=false;
         number=i;
         temp=0;
+        if (l>=n) break;
         while (number!=0){
             temp=10*temp+number%10;
             number/=10;
