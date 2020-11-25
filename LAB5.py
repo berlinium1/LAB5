@@ -6,6 +6,8 @@ if n<0 or x<=0:
     n=int(math.fabs(n))
     x=int(math.fabs(x))
 for i in range(10**(x-1), (10**x)+1):
+    if (L>=n):
+        break
     k=False; number=i; temp=0
     while number != 0:
         temp=10*temp+number%10
